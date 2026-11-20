@@ -1,0 +1,9 @@
+# Creates an animated tile in the approved scene. Run in a fresh scene.
++cube/tile size=4,4,1
++hole/tile d=1
+@material/tile color=#FF6600 roughness=0.35
++torus/ring size=2,2,0.5
+@color/ring #26A9C6
+@pos/ring 0,0,0.9
+~move/ring from=0,0,0.9 to=0,0,2 frames=1:48
+!timeline 1:48

@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "kitquen_forge"
+version = "0.1.0"
+name = "KITQUEN Forge"
+tagline = "Model and animate with compact agent commands"
+maintainer = "KITQUEN Forge contributors"
+type = "add-on"
+blender_version_min = "4.5.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Modeling", "Animation"]
+
+[permissions]
+files = "Exchange local agent commands and write user-approved exports"
